@@ -1,1 +1,2 @@
-# JS-6
+# JS
+DOM (document object models)
