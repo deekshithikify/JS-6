@@ -1,0 +1,30 @@
+<head>
+    <title>hello page</title>
+</head>
+<body>
+    <h3>welcome to java tutorials</h3>
+    <p id="p1" style="color: blueviolet"> paragraph 1</p>
+    <p id="p2"> paragraph 2 </p>
+    <p id="p3"> paragraph 3 </p>
+    <p id="p4"> paragraph 4 </p>
+
+    <script>
+
+        //html page DOM (document object model)
+        //document->html->body->element->...is the heirarchy
+
+        document.getElementById("p2").style.color="red";
+        document.getElementById("p1").style.color="blue";
+
+        document.getElementById("p1").innerHTML="new paragraph 1";
+        document.getElementById("p2").innerHTML="new paragraph 2";
+
+        document.write("<h2> at the end of the page </h2>");
+
+        document.getElementById("p1").innerHTML=screen.width;
+        document.getElementById("p2").innerHTML=window.location.hostname;
+
+        
+
+    </script>
+</body>
